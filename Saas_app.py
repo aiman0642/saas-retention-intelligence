@@ -32,7 +32,7 @@ sns.set_style("whitegrid")
 
 # ── Paths (resolve relative to this script, works regardless of cwd) ─────
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-PROCESSED_DIR = os.path.join(APP_DIR, "..", "data", "processed")
+PROCESSED_DIR = os.path.join(APP_DIR, "data", "processed")
 
 
 def data_path(filename):
